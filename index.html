@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Web Design &amp; Development Studio</title>
+<meta name="description" content="Systems we've built, and what changed after. Web design and development across technology, hospitality, real estate, retail and healthcare.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<div id="preloader">
+  <div class="pl-txt">ND Global PORTFOLIO</div>
+  <div class="pl-bar"></div>
+</div>
+
+<div class="bg-anim">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+
+  <div class="blob b4"></div>
+  <div class="blob b5"></div>
+</div>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="tb-welcome">Welcome to ND GLOBAL </span>
+    <div class="tb-right">
+      <span>✉ infondglobal.in</span>
+      <span>☎ +91 88711 56731</span>
+    </div>
+  </div>
+</div>
+<header id="site-header">
+  <div class="wrap">
+    <nav>
+      <a href="#top" class="brand">
+        <img src="ndlogo.jpeg" alt="NG Global IT logo" class="brand-logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#top" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Portfolio</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta hoverable">Get a Quote</a>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </div>
+</header>
+
+<div id="mobile-menu">
+  <div class="mm-close">CLOSE ✕</div>
+  <a href="#top">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#work">Work</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero-dark">
+    <div class="hero-video-wrap">
+      <video class="hero-bg-video" autoplay muted loop playsinline>
+        <source src="99278-653943177_medium.mp4" type="video/mp4">
+      </video>
+      <div class="hero-dark-overlay"></div>
+    </div>
+    <div class="grid-anim"></div>
+    <div class="wrap hero-dark-inner">
+      <div class="hero-dark-eyebrow"><span class="dot"></span>WELCOME TO NG GLOBAL IT</div>
+      <h1 class="hero-dark-title reveal-el">Think big. We build what's <span>next</span>.</h1>
+      <p class="hero-dark-sub reveal-el">NG Global IT designs and builds premium websites, web apps and digital systems for brands across technology, hospitality, real estate, retail and healthcare — from first sketch to shipped, working product.</p>
+      <div class="hero-dark-actions reveal-el">
+        <a href="#work" class="btn-light hoverable">View Selected Work ↓</a>
+        <a href="#contact" class="btn-outline-light hoverable">Start a project ↗</a>
+      </div>
+
+      <div class="feature-row reveal-el">
+        <div class="feature-card">
+          <svg class="fi" viewBox="0 0 48 48" fill="none"><rect x="8" y="6" width="32" height="36" rx="3" stroke="currentColor" stroke-width="2"/><path d="M8 16h32" stroke="currentColor" stroke-width="2"/><path d="M16 24h16M16 30h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <h4>Website<br>Design</h4>
+        </div>
+          <div class="feature-card">
+          <svg class="fi" viewBox="0 0 48 48" fill="none"><rect x="14" y="5" width="20" height="38" rx="4" stroke="currentColor" stroke-width="2"/><path d="M14 34h20" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="38.5" r="1.6" fill="currentColor"/></svg>
+          <h4> Application
+            <br>Development</h4>
+        </div>
+        <div class="feature-card">
+          <svg class="fi" viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="26" rx="3" stroke="currentColor" stroke-width="2"/><path d="M17 42h14M24 36v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 22l-4 4 4 4M32 22l4 4-4 4M27 19l-6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h4>Web App<br>Development</h4>
+        </div>
+        <div class="feature-card">
+          <svg class="fi" viewBox="0 0 48 48" fill="none"><rect x="14" y="5" width="20" height="38" rx="4" stroke="currentColor" stroke-width="2"/><path d="M14 34h20" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="38.5" r="1.6" fill="currentColor"/></svg>
+          <h4>Mobile App<br>Development</h4>
+        </div>
+        
+        <!-- <div class="feature-card is-highlight">
+          <svg class="fi" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17" stroke="currentColor" stroke-width="2"/><path d="M24 15v9l6 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h4>Business<br>Consultation</h4>
+        </div> -->
+        <div class="feature-card">
+          <svg class="fi" viewBox="0 0 48 48" fill="none"><path d="M8 40l4-12L32 8l8 8-20 20-12 4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M27 13l8 8" stroke="currentColor" stroke-width="2"/></svg>
+          <h4>UI / UX<br>Design</h4>
+        </div>
+      </div>
+    </div>
+    <div class="hero-dark-spacer"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section-pad" id="about" style="padding-top:160px;">
+    <div class="wrap">
+      <div class="about-grid" style="align-items:center;">
+        <div class="reveal-el">
+          <span class="about2-badge">~ About us ~</span>
+          <h2 class="about2-title">Turning <span class="hl">Ideas</span> into Digital <span class="hl">Reality</span></h2>
+          <p class="about2-quote">NG Global IT helps businesses turn ideas into impactful digital products — from fast marketing websites to full-scale web and mobile applications — with a focus on craft, clarity and long-term maintainability.</p>
+
+          <div class="about2-tabs">
+            <button class="tab-btn active hoverable" data-tab="mission">Our Mission</button>
+            <button class="tab-btn hoverable" data-tab="vision">Our Vision</button>
+            <button class="tab-btn hoverable" data-tab="value">Our Value</button>
+          </div>
+          <div class="about2-panels">
+            <p class="active" data-panel="mission">To deliver considered, high-quality IT and digital work that helps businesses unlock their full potential — through customised, timely and cost-effective design and development.</p>
+            <p data-panel="vision">To be the technology partner businesses call first when an idea needs a home on the internet — known for craft, speed and honest communication.</p>
+            <p data-panel="value">Strategy before pixels. Clean code over page-builder bloat. Long-term partnership over one-off delivery.</p>
+          </div>
+        </div>
+
+        <div class="about2-visual reveal-el">
+          <a href="https://ndglobal.in/" target="_blank" rel="noopener" class="about2-ring hoverable" style="display:flex;align-items:center;justify-content:center;overflow:hidden;text-decoration:none;background:#fff;">
+            <img src="ndlogo.jpeg" alt="ND Global logo" style="position:relative;z-index:2;width:100%;height:100%;object-fit:cover;border-radius:50%;">
+          </a>
+          <div class="about2-stat">
+            <div class="n serif">2</div>
+            <div class="l">Years of<br>experience</div>
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="metrics reveal-el" style="margin-top:130px;">
+        <div class="metric zoom-el"><div class="num serif" data-count="50">0</div><div class="lbl">Projects</div></div>
+        <div class="metric zoom-el"><div class="num serif" data-count="40">0</div><div class="lbl">Happy Clients</div></div>
+        <div class="metric zoom-el"><div class="num serif" data-count="2">0</div><div class="lbl">Years Active</div></div>
+        <div class="metric zoom-el"><div class="num serif">India /<br>Global</div><div class="lbl">Reach</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work-dark" id="work">
+    <div class="wrap">
+      <div class="work-dark-head reveal-el">
+        <span class="eyebrow-tag" style="justify-content:center;">03 / SELECTED WORK</span>
+        <h2 class="work-dark-title">Real projects, real results <span>for themselves</span></h2>
+        <p class="work-dark-sub">We deliver measurable results through smart design, performance-driven development, and scalable digital solutions.</p>
+      </div>
+
+      <div class="work-dark-grid">
+
+        <a href="#" target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+          <span class="wd-eyebrow">IT &amp; TECHNOLOGY PLATFORM</span>
+      
+          <div class="wd-shot">
+            <img src="hero.png" alt="ND Global project screenshot">
+          </div>
+          <p class="wd-desc">Full brand identity and corporate website for a global IT &amp; technology services company — built to present sourcing and delivery capability with clarity.</p>
+        </a>
+
+      
+
+        <a href="#" target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+          <span class="wd-eyebrow">REAL ESTATE</span>
+       
+          <div class="wd-shot">
+            <img src="realestate.png" alt="Aranya Estates project screenshot">
+          </div>
+          <p class="wd-desc">A restrained, image-led listing site for a premium Indian real estate brand — built to make high-value properties effortless to browse.</p>
+        </a>
+
+        <a href="https://ndelanstudio.netlify.app/
+        " target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+          <span class="wd-eyebrow">E-COMMERCE</span>
+       
+          <div class="wd-shot">
+            <img src="fashion.png" alt="Vantage Commerce project screenshot">
+          </div>
+          <p class="wd-desc">Custom storefront with fast checkout, smart filtering and live inventory sync for a growing retail brand.</p>
+        </a>
+        <!-- HOTEL BOOKING -->
+<a href="https://ndhotelbooking.netlify.app/
+" target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+  <span class="wd-eyebrow">HOTEL BOOKING</span>
+
+  <div class="wd-shot">
+    <img src="hotel.png" alt="Velora Stays hotel booking project screenshot">
+  </div>
+  <p class="wd-desc">
+    A refined hotel booking experience designed for effortless room discovery,
+    seamless reservations, and a premium stay-planning journey.
+  </p>
+</a>
+
+
+<!-- SALON -->
+<a href="https://ndsalonbeauty.netlify.app/
+" target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+  <span class="wd-eyebrow">SALON &amp; BEAUTY</span>
+
+  <div class="wd-shot">
+    <img src="salon.png" alt="Aura Luxe Salon project screenshot">
+  </div>
+  <p class="wd-desc">
+    A sophisticated beauty and salon website focused on elegant visuals,
+    service discovery, stylist profiles, and effortless appointment booking.
+  </p>
+</a>
+
+<a href="https://coffeeshopcaf.netlify.app/
+" target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+  <span class="wd-eyebrow">CAFÉ &amp; COFFEE</span>
+
+  <div class="wd-shot">
+    <img src="coffe.png" alt="Sofe Coffee House project screenshot">
+  </div>
+  <p class="wd-desc">
+    A warm, image-led café experience crafted to showcase signature coffee,
+    curated menus, and the relaxed character of a modern coffee house.
+  </p>
+</a>
+
+<!-- CAFÉ / COFFEE SHOP -->
+<a href="https://nd-saffron-table.netlify.app/
+" target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+  <span class="wd-eyebrow">CAFÉ &amp; COFFEE</span>
+
+  <div class="wd-shot">
+    <img src="cafe.png" alt="Sofe Coffee House project screenshot">
+  </div>
+  <p class="wd-desc">
+    A warm, image-led café experience crafted to showcase signature coffee,
+    curated menus, and the relaxed character of a modern coffee house.
+  </p>
+</a>
+
+        
+        <a href="https://ndgym.netlify.app/
+        " target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+  <span class="wd-eyebrow">LUXURY FITNESS</span>
+
+
+  <div class="wd-shot">
+    <img src="gym.png" alt="Apex Performance Club gym website project screenshot">
+  </div>
+
+  <p class="wd-desc">
+    Premium fitness club website featuring elite training programs, expert
+    coaches, membership plans, performance tracking and a bold, immersive
+    digital experience.
+  </p>
+</a>
+
+        <a href="https://hospitalnd.netlify.app/
+        " target="_blank" rel="noopener" class="work-dark-item hoverable zoom-el">
+          <span class="wd-eyebrow">HEALTHCARE</span>
+       
+          <div class="wd-shot">
+            <img src="careplus.png" alt="CarePlus Hospital project screenshot">
+          </div>
+          <p class="wd-desc">Patient-first hospital website with appointment booking, department directory and accessible navigation throughout.</p>
+        </a>
+
+        <a href="#contact" class="work-dark-item hoverable zoom-el work-dark-cta">
+          <div class="wd-cta-inner">
+            <div class="serif">Your project<br>could be next.</div>
+            <span class="link-underline" style="display:inline-block;margin-top:18px;">Start a conversation →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+ 
+<!-- TECH STACK -->
+<!-- TECH STACK -->
+<section class="section-pad" id="techstack">
+  <div class="wrap">
+    <span class="eyebrow-tag reveal-el">08 / TECH STACK</span>
+    <h2 class="section-title reveal-el">Technologies we build with.</h2>
+    <div class="tech-grid">
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="html.png" alt="HTML"></div>
+        <span class="tech-name">HTML</span>
+        <p class="tech-cap">Structures every page's content.<br>Foundation of the web.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="css.png" alt="CSS"></div>
+        <span class="tech-name">CSS</span>
+        <p class="tech-cap">Handles layout, colors & motion.<br>Makes designs look premium.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="js.png" alt="JavaScript"></div>
+        <span class="tech-name">JavaScript</span>
+        <p class="tech-cap">Adds interactivity & logic.<br>Powers dynamic behavior.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="ts.png" alt="TypeScript"></div>
+        <span class="tech-name">TypeScript</span>
+        <p class="tech-cap">Typed JavaScript, fewer bugs.<br>Built for large codebases.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="next.png" alt="Next.js"></div>
+        <span class="tech-name">Next.js</span>
+        <p class="tech-cap">React framework, SSR & SEO.<br>Fast, production-ready sites.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="react.png" alt="React"></div>
+        <span class="tech-name">React</span>
+        <p class="tech-cap">Component-based UI library.<br>Builds fast, reusable interfaces.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="reactnative.png" alt="React Native"></div>
+        <span class="tech-name">React Native</span>
+        <p class="tech-cap">One codebase, iOS & Android.<br>Native-feel mobile apps.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="flutter.png" alt="Flutter"></div>
+        <span class="tech-name">Flutter</span>
+        <p class="tech-cap">Google's cross-platform toolkit.<br>Smooth, native-speed UI.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="node.png" alt="Node.js"></div>
+        <span class="tech-name">Node.js</span>
+        <p class="tech-cap">JavaScript on the server.<br>Powers APIs & backend logic.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="express.png" alt="Express"></div>
+        <span class="tech-name">Express</span>
+        <p class="tech-cap">Lightweight Node framework.<br>Builds REST APIs quickly.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="mongo.png" alt="MongoDB"></div>
+        <span class="tech-name">MongoDB</span>
+        <p class="tech-cap">Flexible NoSQL database.<br>Stores JSON-like documents.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="sql.png" alt="SQL"></div>
+        <span class="tech-name">SQL</span>
+        <p class="tech-cap">Structured relational database.<br>Reliable, consistent data storage.</p>
+      </div>
+
+    
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="python.png" alt="Python"></div>
+        <span class="tech-name">Python</span>
+        <p class="tech-cap">Backend logic & automation.<br>Clean, versatile scripting.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <div class="tech-icon-wrap"><img src="java.png" alt="Java"></div>
+        <span class="tech-name">Java</span>
+        <p class="tech-cap">Robust, enterprise-grade language.<br>Used for large backend systems.</p>
+      </div>
+
+      <div class="tech-card zoom-el">
+        <!-- <div class="tech-icon-wrap"><img src="c.png" alt="C"></div>
+        <span class="tech-name">C</span>
+        <p class="tech-cap">Low-level, high-performance base.<br>Core of systems programming.</p>
+      </div> -->
+
+    </div>
+  </div>
+</section>
+
+  <!-- SERVICES DETAIL -->
+  <section class="section-pad" id="services" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-tint">
+      <span class="eyebrow-tag reveal-el">02 / WHAT I OFFER</span>
+      <h2 class="section-title reveal-el">Everything a modern brand needs on the web.</h2>
+      <div class="services-grid">
+        <div class="service-card zoom-el"><div class="si">01</div><h3>Web Design</h3><p>Custom interface design rooted in your brand's visual identity, not a template.</p></div>
+        <div class="service-card zoom-el"><div class="si">02</div><h3>Web Development</h3><p>Fast, responsive, SEO-friendly builds using modern frameworks and clean code.</p></div>
+        <div class="service-card zoom-el"><div class="si">03</div><h3>E‑Commerce</h3><p>Storefronts with smooth checkout, inventory sync and conversion-focused UX.</p></div>
+        <div class="service-card zoom-el"><div class="si">04</div>
+        <h3>App Development</h3><p>Building sleek, scalable mobile apps that turn ideas into seamless digital experiences.</p></div>
+        <div class="service-card zoom-el"><div class="si">05</div><h3>UI / UX</h3><p>Wireframes, prototypes and usability-tested flows before a line of code is written.</p></div>
+        <div class="service-card zoom-el"><div class="si">06</div><h3>Support &amp; Maintenance</h3><p>Ongoing updates, monitoring and improvements after the site goes live.</p></div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section-pad" id="process">
+    <div class="wrap">
+      <div class="section-tint">
+      <span class="eyebrow-tag reveal-el">04 / PROCESS</span>
+      <h2 class="section-title reveal-el">A clear, cinematic path from idea to launch.</h2>
+      <div class="process-list reveal-el">
+        <div class="p-step"><span class="pn">01</span><h4>Discover</h4><p>Understanding your business, audience and goals before any design begins.</p></div>
+        <div class="p-step"><span class="pn">02</span><h4>Design</h4><p>Wireframes and high-fidelity design, refined together through fast feedback loops.</p></div>
+        <div class="p-step"><span class="pn">03</span><h4>Develop</h4><p>Clean, responsive, performance-first code built on a modern stack.</p></div>
+        <div class="p-step"><span class="pn">04</span><h4>Deploy</h4><p>Launch with analytics, SEO basics and monitoring in place from day one.</p></div>
+        <div class="p-step"><span class="pn">05</span><h4>Support</h4><p>Ongoing updates and improvements as your business keeps growing.</p></div>
+      </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- TESTIMONIALS -->
+  <!-- <section class="section-pad" style="padding-top:0;">
+    <div class="wrap">
+      <span class="eyebrow-tag reveal-el">05 / FEEDBACK</span>
+      <h2 class="section-title reveal-el">What clients say after launch.</h2>
+      <div class="test-grid">
+        <div class="test-card zoom-el"><div class="stars">★★★★★</div><p>"Our new site finally looks as capable as the team behind it. Enquiries doubled in the first month."</p><div class="who">— Operations Lead, IT Services</div></div>
+        <div class="test-card zoom-el"><div class="stars">★★★★★</div><p>"Bookings went fully online without losing the warmth of the restaurant. Guests notice immediately."</p><div class="who">— Owner, Fine Dining Restaurant</div></div>
+        <div class="test-card zoom-el"><div class="stars">★★★★★</div><p>"Listings load fast, look premium, and buyers can actually find what they're looking for now."</p><div class="who">— Director, Real Estate Brand</div></div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- FAQ -->
+  <section class="section-pad" id="faq" style="padding-top:0;">
+    <div class="wrap">
+      <span class="eyebrow-tag reveal-el">06 / FAQ</span>
+      <h2 class="section-title reveal-el">Questions, answered.</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-q hoverable"><h4>What's the typical project timeline?</h4><div class="faq-icon"></div></div>
+          <div class="faq-a"><p>Most single-brand websites take 3–5 weeks from kickoff to launch, depending on scope. E‑commerce and larger multi-page systems usually run 6–8 weeks. You'll get a clear timeline before any work begins.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q hoverable"><h4>Do you work with businesses outside India?</h4><div class="faq-icon"></div></div>
+          <div class="faq-a"><p>Yes — I work with clients across India and internationally. All collaboration happens over calls, email and shared docs, so location isn't a constraint.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q hoverable"><h4>What's included after the site goes live?</h4><div class="faq-icon"></div></div>
+          <div class="faq-a"><p>Every project includes a short post-launch support window to fix any issues. Ongoing maintenance, content updates and new features can continue on a simple monthly or per-request basis.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q hoverable"><h4>What platforms and tech do you build with?</h4><div class="faq-icon"></div></div>
+          <div class="faq-a"><p>Mainly Next.js, React and Tailwind CSS for custom builds, and Shopify for e‑commerce stores that need a managed backend. The stack is chosen based on what the project actually needs — not a one-size-fits-all template.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q hoverable"><h4>How much does a website cost?</h4><div class="faq-icon"></div></div>
+          <div class="faq-a"><p>Pricing depends on scope — a brand website is priced differently from an e‑commerce store or a booking system. Share a few details about your project and I'll send a clear, itemised quote.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q hoverable"><h4>Can you redesign an existing website?</h4><div class="faq-icon"></div></div>
+          <div class="faq-a"><p>Yes. I regularly rebuild dated or underperforming sites — keeping the content and SEO value you've already earned while modernising the design and speed.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH MARQUEE -->
+  <section class="marquee">
+    <div class="marquee-track">
+      <span>Next.js</span><span>Tailwind CSS</span><span>React</span><span>Node.js</span><span>Figma</span><span>Shopify</span><span>Framer Motion</span><span>PostgreSQL</span>
+      <span>Next.js</span><span>Tailwind CSS</span><span>React</span><span>Node.js</span><span>Figma</span><span>Shopify</span><span>Framer Motion</span><span>PostgreSQL</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section-pad" id="contact">
+    <div class="contact">
+      <div class="contact-inner">
+        <div class="contact-layout">
+          <div>
+            <span class="eyebrow-tag reveal-el" style="color:#9fb0ff;">07 / CONTACT</span>
+            <h2 class="contact-title reveal-el">Let's build<br>what's <em>next</em>.</h2>
+            <p class="contact-sub reveal-el">Have a project, a brand, or an idea that needs a home on the internet? I'd love to hear about it.</p>
+            <div class="contact-cta reveal-el">
+              <a href="mailto:hello@yourname.com" class="contact-email hoverable">hello@yourname.com</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal-el" id="contact-form">
+            <div class="f-row">
+              <div class="f-group">
+                <label for="cf-name">Full Name</label>
+                <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="f-group">
+                <label for="cf-email">Email</label>
+                <input type="email" id="cf-email" name="email" placeholder="you@company.com" required>
+              </div>
+            </div>
+            <div class="f-row">
+              <div class="f-group">
+                <label for="cf-phone">Phone</label>
+                <input type="tel" id="cf-phone" name="phone" placeholder="+91 90000 00000">
+              </div>
+              <div class="f-group">
+                <label for="cf-service">Service Needed</label>
+                <input type="text" id="cf-service" name="service" placeholder="e.g. Website Design">
+              </div>
+            </div>
+            <div class="f-group">
+              <label for="cf-message">Project Details</label>
+              <textarea id="cf-message" name="message" placeholder="Tell us a bit about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit hoverable">Send Message <span>↗</span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="wrap footer-grid">
+      <div class="footer-brand-block">
+        <img src="ndlogo.jpeg" alt="NG Global IT logo" class="f-brand-logo">
+        <p>NG Global IT designs and builds premium websites, web apps and digital systems for brands across technology, hospitality, real estate, retail and healthcare.</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/company/ndglobal/
+          " aria-label="LinkedIn" class="hoverable"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.24 8.25h4.48V23H.24V8.25zM8.5 8.25h4.3v2.02h.06c.6-1.13 2.06-2.32 4.24-2.32 4.53 0 5.37 2.98 5.37 6.85V23h-4.48v-6.62c0-1.58-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.5V23H8.5V8.25z"/></svg></a>
+          <a href="https://www.instagram.com/ndglobal.in?igsh=YW5rc3RxN29raTRu
+          " aria-label="Instagram" class="hoverable"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="#" aria-label="Twitter" class="hoverable"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 4.9c-.85.38-1.75.63-2.7.75a4.7 4.7 0 0 0 2.06-2.6c-.9.55-1.9.94-2.97 1.15a4.66 4.66 0 0 0-7.94 4.25A13.24 13.24 0 0 1 1.6 3.7a4.66 4.66 0 0 0 1.44 6.22 4.63 4.63 0 0 1-2.1-.58v.06a4.66 4.66 0 0 0 3.74 4.57 4.68 4.68 0 0 1-2.1.08 4.66 4.66 0 0 0 4.36 3.24A9.35 9.35 0 0 1 0 19.54a13.2 13.2 0 0 0 7.15 2.1c8.58 0 13.27-7.1 13.27-13.27 0-.2 0-.4-.02-.6A9.5 9.5 0 0 0 23 4.9z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#about" class="hoverable">About Us</a></li>
+          <li><a href="#services" class="hoverable">Services</a></li>
+          <li><a href="#work" class="hoverable">Portfolio</a></li>
+          <li><a href="#faq" class="hoverable">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services" class="hoverable">Website Design</a></li>
+          <li><a href="#services" class="hoverable">Web App Development</a></li>
+          <li><a href="#services" class="hoverable">Mobile App Development</a></li>
+          <li><a href="#services" class="hoverable">UI / UX Design</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Get in Touch</h5>
+        <ul class="footer-contact">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg> infondglobal.in
+            </li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2z"/></svg>+91 88711 56731
+            </li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> India / Global — Remote-first</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="wrap">
+      <span class="f-copy">© 2026 NG GLOBAL IT. ALL RIGHTS RESERVED.</span>
+  
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
