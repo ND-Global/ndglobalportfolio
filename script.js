@@ -77,3 +77,32 @@ const cio=new IntersectionObserver((entries)=>{
   });
 },{threshold:0.5});
 counters.forEach(c=>cio.observe(c));
+
+/* ---------- Contact Form → WhatsApp Submit ---------- */
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById('cf-name').value.trim();
+    const email = document.getElementById('cf-email').value.trim();
+    const phone = document.getElementById('cf-phone').value.trim();
+    const service = document.getElementById('cf-service').value.trim();
+    const message = document.getElementById('cf-message').value.trim();
+
+    // WhatsApp number in international format (no + or spaces)
+    const whatsappNumber = '918871156731';
+
+    let text = `*New Contact Form Submission*%0A`;
+    text += `Name: ${name}%0A`;
+    text += `Email: ${email}%0A`;
+    if (phone) text += `Phone: ${phone}%0A`;
+    if (service) text += `Service Needed: ${service}%0A`;
+    text += `Message: ${message}`;
+
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${text}`;
+    window.open(whatsappURL, '_blank');
+
+    this.reset();
+  });
+}
